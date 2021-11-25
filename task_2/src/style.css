@@ -1,0 +1,58 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-content: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none; border: none;
+    transition:all .2s linear;
+
+   overflow-x: hidden;
+   scroll-padding-top:6rem ;
+   scroll-behavior: smooth;
+}
+
+
+  
+
+
+.getUser {
+    background-color: rgb(250, 59, 59);
+    color: rgb(233, 220, 220);
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+    align-items: center;
+
+  }
+  
+  .box{
+    align-content: center;
+    position:center;
+  }
+  .getUser:hover {
+    background-color: rgb(207, 8, 8);
+    color: rgb(233, 220, 220);
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+  }
+
+ .heading {
+     
+      top:0; left: 0; right: 0;
+  background: rgb(125,255,203);
+  background: linear-gradient(90deg, rgba(125,255,203,1) 0%, rgba(29,196,253,1) 39%, rgba(69,113,252,1) 100%);
+  
+      z-index: 1000;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      padding:2rem 9%;
+  } 
+  
